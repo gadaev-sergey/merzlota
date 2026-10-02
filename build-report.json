@@ -1,0 +1,38 @@
+{
+  "project": "Мерзлота · Станция «Полюс-9»",
+  "projectId": "merzlota-polus-9",
+  "version": "1.0.0",
+  "engineSDK": 1,
+  "base": "./",
+  "scenes": [
+    {
+      "id": "airlock",
+      "name": "Внешний шлюз",
+      "path": "scenes/airlock.scene.json"
+    },
+    {
+      "id": "lab",
+      "name": "Лаборатория",
+      "path": "scenes/lab.scene.json"
+    },
+    {
+      "id": "core",
+      "name": "Ледяное ядро",
+      "path": "scenes/core.scene.json"
+    }
+  ],
+  "modules": [
+    {
+      "id": "merzlota",
+      "version": 1
+    }
+  ],
+  "assets": [],
+  "files": [
+    "assets/index-C7T2AWP2.js",
+    "assets/style-7-ynGqqV.css",
+    "index.html"
+  ],
+  "builtAt": "2026-10-02T14:00:21.940Z",
+  "requirements": "WebGL2, ES2022, static HTTP server"
+}
